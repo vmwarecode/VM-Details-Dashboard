@@ -1,0 +1,12 @@
+{"512c2d35-2d9d-4aec-a899-31ef94475305": {
+   "resourceKinds": [{
+      "resourceKindKey": "VirtualMachine",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1616754166022,
+   "name": "Guest OS Uptime in days",
+   "formula": "floor(${this, metric=sys|osUptime_latest}/86400)",
+   "description": "VM Guest OS Uptime in days",
+   "unitId": "day",
+   "modifiedBy": "287ed085-c6ca-4255-b69c-956f1665ed51"
+}}
